@@ -486,3 +486,51 @@
 
 
   }
+
+  @media screen and (max-width: 450px){
+    .nav{
+        display: flex;
+        flex-direction: column;
+        background-color: black;
+        padding: 1.5rem;
+        color: #ffffff; 
+    } 
+    .nav-items{
+        display: block;
+        margin: 0 auto;
+        padding: 2rem;
+        text-transform: uppercase;
+        font-size: 1.25rem;
+        font-family: 'Martel Sans', sans-serif;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    html, body {
+        max-width: 100% !important;
+        overflow-x: hidden !important;
+    }
+
+    .section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .certificados-section2{
+        width: 90%;
+    }
+
+    .img-section3{
+        width: 90%;
+    }
+
+    .section4{
+        align-items: flex-start;
+    }
+
+  }
